@@ -1,0 +1,23 @@
+
+.topnav { 
+background-color: #000099;
+text-align: center;
+padding: 14px 16px;
+text-emphasis-color: green;}
+
+img {
+    width:  1350px;
+    height: 400px;
+    object-fit: cover;
+}
+.body {
+    text-decoration-color: black;
+}
+
+.box1 {
+    width:  50px;
+    height: 200px;
+    object-fit: cover;
+
+}
+
