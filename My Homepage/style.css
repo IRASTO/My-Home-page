@@ -2,21 +2,23 @@
 .topnav { 
 background-color: #eca12f;
 padding: 1px 2px;
-
 }
 
-li{
-    display: inline-block;
-    padding: 5px;
-   
+li{ 
+  float: none;
+  display: inline;
+  list-style-type: none;
+    padding: 5px;  
 }
-
-
-
-img {
-    width:  1350px;
+a:hover{
+  background-color: black;
+}
+img{
+    width:  1339px;
     height: 400px;
     object-fit: cover;
+}
+
 }
 .body {
     text-decoration-color: black;
@@ -29,28 +31,11 @@ img {
 }
 
 
-
-
-
-
 body{
-    margin: 0;
-    
-    
-   
-  }
+  margin: 0;  
+}
   
   
-  
-  .details{
-    text-align: center;
-  }
-  
-  .details h2{
-    color:#000000;
-    font-size:50px;
-    margin: 0;
-  }
   
   .main-box{
     display: flex;
@@ -68,11 +53,7 @@ body{
     position: relative;
     z-index: 2;
     border-radius: 5px;
-  
   }
-  
-  
-  
   
   
   .box .icon{
@@ -84,6 +65,7 @@ body{
     display: inline-block;
     position: relative;
   }
+
   
   .box .icon .fas{
     color: #404044;
@@ -94,14 +76,6 @@ body{
     transform: translate(-50%, -50%);
   }
   
-  hr{
-    margin-top: 25px;
-    margin-bottom: 25px;
-    display: block;
-    width: 70%;
-    border: 1px solid rgba(255,255,255, 0.1);
-  
-  }
   
   .box a{
     text-decoration: none;
